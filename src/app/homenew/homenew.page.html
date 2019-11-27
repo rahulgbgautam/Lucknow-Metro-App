@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar  color="danger">
+    <ion-title id="center">Metro Routs </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card id="ioncard" (click) = "show()"  color="danger">
+    <ion-card-title> Stations List </ion-card-title>
+  </ion-card>
+
+  
+  <ion-card *ngIf=hide>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col> 
+         <ion-button  (click) = "test1()" color="light" class=ionbutton  value="Munshipuliya"> Munshipuliya </ion-button>
+        </ion-col>  
+      </ion-row>
+
+      <ion-row>
+        <ion-col> 
+         <ion-button (click) = "test1()" color="light" class=ionbutton>  Indra Nagar </ion-button>
+        </ion-col>  
+      </ion-row>
+
+      <ion-row>
+       <ion-col> 
+        <ion-button (click) = "test1()" color="light" class=ionbutton>  Bhootnath </ion-button>
+       </ion-col>  
+      </ion-row>
+
+      <ion-row>
+       <ion-col> 
+        <ion-button (click) = "test1()" color="light" class=ionbutton>  Lekhraj Market </ion-button>
+       </ion-col>  
+      </ion-row>
+
+      <ion-row>
+        <ion-col> 
+          <ion-button (click) = "test1()" color="light" class=ionbutton>  Badshah Nagar </ion-button>
+        </ion-col>  
+      </ion-row>
+
+      <ion-row>
+        <ion-col> 
+         <ion-button (click) = "test1()" color="light" class=ionbutton>  IT College </ion-button>
+         </ion-col>  
+      </ion-row>
+
+      <ion-row>
+       <ion-col> 
+         <ion-button (click) = "test1()" color="light" class=ionbutton> Vishvavidyalay  </ion-button>
+       </ion-col>  
+      </ion-row>
+
+      <ion-row>
+        <ion-col> 
+          <ion-button (click) = "test1()" color="light" class=ionbutton> K D Singh Stadium </ion-button>
+        </ion-col>  
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="test1()" color="light" class=ionbutton> Hazratganj </ion-button>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="test1()" color="light" class=ionbutton> Sachivalaya </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </ion-card>
+
+</ion-content>

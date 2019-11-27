@@ -1,0 +1,152 @@
+ion-toolbar {
+
+    height: 125px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#card1{
+
+    width: 100px;
+    margin-left: 50px;
+}
+
+
+
+#card2{
+
+    width: 100px;
+    margin-left: 153px;
+    margin-top: -25px;
+}
+
+
+#card3{
+
+    width: 100px;
+    margin-left: 255px;
+    margin-top: -25px;
+
+}
+
+#card4{
+
+    width: 70px;
+    color:white;
+    height: 65px;
+}
+
+#img1{
+
+    height: 65px;
+    width: 69px;
+}
+
+ion-label{
+
+    color:white;
+}
+
+
+
+#card5{
+
+    margin-left: 90px;
+    width: 125px;
+    margin-top: -54px;
+    height: 90px;
+}
+
+
+#card6{
+
+    margin-left: 307px;
+    margin-top: -70px;
+}
+
+ion-slides {
+    margin-top: 30%;
+    background: #e6e6e6;
+ 
+    img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+h6{
+
+    margin-left: 95px;
+   
+}
+
+#h11{
+
+    margin-left: 110px;
+}
+
+#h12{
+
+    margin-left: 63px;
+}
+
+#btn2{
+
+    margin-top: -15px;
+    width: 180px;
+    margin-left: 156px;
+}
+
+
+#btn1{
+
+    margin-bottom: -22px;
+    width: 150px;
+}
+
+ion-content {
+    background-color: #EFEFEF !important;
+    font-family:'Raleway';
+}
+
+.diag {
+    position: absolute;
+    z-index: 1;
+    width:100%;
+    top: 0;
+    height:66%;
+  }
+
+  #ionicon {
+    margin-top: 40%;
+    font-size:7em;
+}
+
+#h2 {
+    margin-top:80% !important;
+    font-weight:bold;
+    font-size:1em;
+}
+
+
+
+.swiper-pagination-bullet-active {
+    background:#C400FF;
+}
+
+.swiper-pagination {
+    bottom: 12% !important;
+}
+
+#skip {
+    position:absolute;
+    bottom: 20px;
+    width:100%;
+    background:none !important;
+    text-align:center;
+    cursor:pointer;
+    z-index:5;
+}

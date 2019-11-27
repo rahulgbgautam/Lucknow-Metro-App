@@ -1,0 +1,27 @@
+<!---------------   CTRL + K+ F  , is used for making identation of our code 
+  
+   &nbsp , it is used for making space ------------>
+
+
+<ion-header>
+  <button ion-button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+  <ion-title>API DATA</ion-title>
+</ion-header>
+<ion-content>
+  <div>
+    <ion-row>
+      <ion-card>
+        <ion-list *ngFor="let obj of first">
+          <ion-item>
+            Name: <span>{{obj.name.first}}</span>&nbsp; &nbsp; <span>{{obj.name.last}}</span><br>
+          </ion-item>
+          <ion-item>
+            Email: <span>{{obj.email}}</span>
+       </ion-item>
+       </ion-list>
+      </ion-card>
+    </ion-row>
+  </div>
+</ion-content>
